@@ -1,0 +1,50 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.products-lists{
+    display: grid;
+   gap:10px;
+    grid-template-columns: repeat(4,1fr);
+    flex-basis: 70%;
+}
+.cart-summary{
+    flex-basis: 30%;
+}
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+    padding: 10px;
+}
+.prod-img{
+ width: 100%;
+ height: 200px;
+ object-fit: center;
+}
+.prod-description{
+    display: flex;
+    justify-content: space-between;
+}
+.addtocart-btn{
+
+background: green;
+color: white;
+cursor: pointer;
+}
+.removetocart-btn{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.cart-summary{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.cart-product{
+    display: flex;
+    justify-content: space-between;
+}
