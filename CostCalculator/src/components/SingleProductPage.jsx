@@ -9,7 +9,7 @@ const SingleProductPage = ({product}) => {
 payload:product})
  }
  const removefromCart =(id)=>{
-    //console.log(id)
+    
     dispatch({
         type:"REMOVE_FROM_CART",
         payload:{
