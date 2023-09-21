@@ -1,0 +1,58 @@
+.App{
+  max-width: 600px;
+  margin: auto;
+
+}
+.stepper-wrapper{
+  position: relative;
+ 
+  
+}
+.steppers{
+  
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  
+}
+.single-stepper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+}
+.stepper{
+  background: gray;
+  border-radius: 100%;
+  padding: 5px;
+  display: flex;
+
+ align-self: flex-end;
+ transition: all 0.5 ease;
+}
+.label{
+  display: flex;
+  justify-content: space-between;
+}
+.stepper-line {
+  position: absolute;
+  left:0;
+  top:20%;
+  height: 2px;
+  width: 100%;
+  background: gray;
+  z-index: -1;
+ 
+}
+.stepper-btn{
+  display: flex;
+  justify-content: flex-end;
+  gap:10px;
+  margin-top:15px;
+
+}
+.active{
+  background: blue;
+  color:white;
+}
